@@ -41,7 +41,7 @@
     "tailwindcss": "^3.4.19",
     "typescript": "^6.0.3",
     "zod": "^4.4.3",
-    "zustand": "^5.0.14"
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.2",
