@@ -93,6 +93,7 @@ Format: `type(scope): subject`
   - ❌ `fix(email): add env check before send`
 
 Examples:
+
 - `feat(contact): add file attachment support to contact form`
 - `fix(middleware): auth redirect loops on root path after SSR hydration`
 - `chore(deps): update astro to v7.2.0`
