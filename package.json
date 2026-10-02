@@ -29,7 +29,7 @@
     "@hugeicons/react": "^1.1.9",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.2.4",
-    "@types/sanitize-html": "2.16.1",
+    "@types/sanitize-html": "2.16.2",
     "astro": "^7.2.0",
     "clsx": "^2.1.1",
     "daisyui": "^5.7.37",
