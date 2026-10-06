@@ -50,7 +50,7 @@
     "astro": "^7.3.5",
     "clsx": "^2.1.1",
     "daisyui": "^5.7.47",
-    "framer-motion": "^13.5.0",
+    "framer-motion": "^14.0.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "resend": "^6.32.0",
