@@ -20,23 +20,6 @@
     "release": "release-it --ci",
     "start": "node dist/server/entry.mjs"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,astro}": [
-      "oxlint --type-aware",
-      "oxfmt --write"
-    ],
-    "*.{css,json,md}": [
-      "oxfmt --write"
-    ],
-    "package.json": [
-      "sort-package-json"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
     "@astrojs/node": "^11.1.7",
@@ -84,8 +67,25 @@
     "tsdown": "^0.23.0",
     "typescript-eslint": "^8.71.1"
   },
-  "packageManager": "pnpm@10.33.2",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,astro}": [
+      "oxlint --type-aware",
+      "oxfmt --write"
+    ],
+    "*.{css,json,md}": [
+      "oxfmt --write"
+    ],
+    "package.json": [
+      "sort-package-json"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "engines": {
     "node": ">=22.13.0"
-  }
+  },
+  "packageManager": "pnpm@10.33.2"
 }
