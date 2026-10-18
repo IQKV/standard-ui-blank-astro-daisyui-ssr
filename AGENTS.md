@@ -155,13 +155,13 @@ A task is evaluated as done only when all of the following hold:
 
 ### Required gates by change type
 
-| Change type | Required gates |
-| --- | --- |
-| Any change | `pnpm build` (runs `astro check`) and `pnpm lint` |
-| New page or API endpoint | `pnpm build`; validate input with Zod and sanitize user HTML before sending |
-| Env var added or renamed | `pnpm build`; server-side vars go through `src/lib/env.ts`, client vars use the `PUBLIC_` prefix |
-| Dependency or config change | `pnpm build` |
-| Docs or `AGENTS.md` only | `pnpm formatter:check`; no build gate — state that none applies |
+| Change type                 | Required gates                                                                                   |
+| --------------------------- | ------------------------------------------------------------------------------------------------ |
+| Any change                  | `pnpm build` (runs `astro check`) and `pnpm lint`                                                |
+| New page or API endpoint    | `pnpm build`; validate input with Zod and sanitize user HTML before sending                      |
+| Env var added or renamed    | `pnpm build`; server-side vars go through `src/lib/env.ts`, client vars use the `PUBLIC_` prefix |
+| Dependency or config change | `pnpm build`                                                                                     |
+| Docs or `AGENTS.md` only    | `pnpm formatter:check`; no build gate — state that none applies                                  |
 
 ### Ordering
 
