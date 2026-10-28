@@ -64,7 +64,7 @@
     "release-it": "^21.1.1",
     "release-it-pnpm": "^4.6.6",
     "sort-package-json": "^4.1.0",
-    "tsdown": "^0.23.1",
+    "tsdown": "^0.23.2",
     "typescript-eslint": "^8.71.2"
   },
   "lint-staged": {
