@@ -33,7 +33,7 @@
     "astro": "^7.4.2",
     "clsx": "^2.1.1",
     "daisyui": "^5.7.50",
-    "framer-motion": "^14.8.0",
+    "framer-motion": "^14.9.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "resend": "^6.37.0",
